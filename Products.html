@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <meta charset = "UTF=8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Our Products</title>
+  <link rel="stylesheet" href="products.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="icon" href="Images/logo-title.png" type="images/x-icon"> 
+</head>
+<body>
+  <div class = "header">
+    <div class = "container">
+      <div class="navigationbar">
+        <div class="logo">
+          <img src="Images/logo.png" width=60px>
+        </div>
+        <nav>
+          <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "Products.html">Products</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            <li><a href = "aboutus.html">About</a></li>
+            <li><a href = "shippingpolicy.html">Shipping Policy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+function search() {
+let filter = document.getElementById('find').value.toUpperCase();
+let item = document.querySelectorAll('.product');
+let l = document.getElementsByTagName('h3');
+for(var i = 0;i<=l.length;i++){
+let a=item[i].getElementsByTagName('h3')[0];
+let value=a.innerHTML || a.innerText || a.textContent;
+if(value.toUpperCase().indexOf(filter) > -1) {
+item[i].style.display="";
+}
+else
+{
+item[i].style.display="none";
+}
+}
+}
+</script>
+
+
+
+  <div class="products-page-begin">
+    <div class="products-page-title">
+      <h1>Browse our Available Coins</h1>
+    </div>
+    <div class="search-container-fluid">
+      <div class="search-container">
+        <div class="search">
+          <input type="text" name="" id='find' placeholder="Search here..." onkeyup="search()">
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-btns">
+      <button type="button" class="filter-btn" id="all">All</button>
+      <button type="button" class="filter-btn" id="canadian">Canadian Coins</button>
+      <button type="button" class="filter-btn" id="american">American Coins</button>
+      <button type="button" class="filter-btn" id="graded">Graded</button>
+      <button type="button" class="filter-btn" id="ungraded">Ungraded</button>
+      <button type="button" class="filter-btn" id="pcgs">PCGS</button>
+      <button type="button" class="filter-btn" id="ngc">NGC</button>
+      <button type="button" class="filter-btn" id="icg">ICG</button>
+      <button type="button" class="filter-btn" id="ebay">eBay</button>
+      <button type="button" class="filter-btn" id="1c">1C</button>
+      <button type="button" class="filter-btn" id="5c">5C</button>
+      <button type="button" class="filter-btn" id="10c">10C</button>
+      <button type="button" class="filter-btn" id="20c">20C</button>
+      <button type="button" class="filter-btn" id="25c">25C</button>
+      <button type="button" class="filter-btn" id="50c">50C</button>
+      <button type="button" class="filter-btn" id="$1">$1</button>
+      <button type="button" class="filter-btn" id="$2">$2</button>
+      <button type="button" class="filter-btn" id="$10">$10</button>
+    
+    </div>
+
+    <div class="products">
+      <script>
+        fetch("products.json")
+        .then(res => res.json())
+        .then(products => {
+          const container = document.getElementsByClassName("products")[0];
+
+          products.forEach(p => {
+            container.insertAdjacentHTML("beforeend", `
+            <div class="${p.tags}">
+              <a href="${p.link}" target="_blank"><div class="image">
+                <img src="${p.photo}" alt="">
+              </div>
+              <div class="namePrice">
+                <h4 class='searchable'>${p.desc}</h4>
+                <h3 class='searchable'>${p.name}</h3>
+                <span>${p.price}</span>
+              </div>
+            </div></a>
+            `)
+          });
+          setFilters();
+        });
+      </script>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Visit Our Ebay Store!</h3>
+            <br>
+            <p>Click the Link on our Logo!</p>
+            <br>
+            <a href="https://www.ebay.ca/usr/mimicoho_38?_trksid=p2047675.m3561.l2559" target="_blank"><img src="Images/logo.png" width="150" height="150"></a>
+          </div>
+          <div class="footer-col-2">
+            <img src="Images/logo.png" height = "180">
+            <br>
+            <p>We Provide the Finest in Canadian <br>(and sometimes American) Coins!</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+             <a href="Products.html"><li>Products</li></a>
+             <a href="Contact.html"><li>Contact</li></a>
+             <a href="aboutus.html"><li>About Us</li></a>
+             <a href="https://www.ebay.ca/usr/mimicoho_38?_trksid=p2047675.m3561.l2559" target="_blank"><li>Ebay Store</li></a>
+           </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+</body>
+</html>
