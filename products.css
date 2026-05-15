@@ -6,15 +6,18 @@
 }
 body {
   background: radial-gradient(#fff, #FA8128);
-  height: 85vh;
   display: grid;
   place-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .products-page-begin {
   width: 80vw;
-  display: flex;
+  display: block;
   flex-direction: column;
-  justify-content: space-around
+  justify-content: space-around;
+  flex: 1;
 }
 .products-page-title {
   width: 100%;
