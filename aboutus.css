@@ -6,10 +6,15 @@
 }
 body {
   background: radial-gradient(#fff, #FA8128);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .about {
   width: 100%;
   padding: 78px 0px;
+  flex: 1;
+  align-items: center;
 }
 .about img {
   height: auto;
@@ -70,7 +75,7 @@ nav {
   text-align: right;
 }
 nav ul {
-  display; inline-block;
+  display: inline-block;
   list-style-type: none;
 }
 nav ul li {
@@ -91,6 +96,7 @@ a {
   position: relative;
   width: 100%;
   background: #000;
+  flex-shrink: 0;
 }
 .header .row {
   margin-top: 70px;
