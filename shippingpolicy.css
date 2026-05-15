@@ -13,6 +13,7 @@ body {
 .shipping-policy {
   width: 100%;
   padding: 78px 0px;
+  
 }
 .shipping-policy img {
   height: auto;
@@ -90,8 +91,7 @@ a {
   font-size: 14px;
   padding: 40px 0 20px;
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  position: flex;
 }
 .footer p {
   color: #8a8a8a;
