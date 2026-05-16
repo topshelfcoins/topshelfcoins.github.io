@@ -2,6 +2,8 @@ function setFilters() {
   const allFilterBtns = document.querySelectorAll('.filter-btn');
   allFilterBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
+      allFilterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.toggle('active');
       showFilteredContent(btn);
     });
   });

@@ -111,7 +111,7 @@ a {
   color: #fff;
 }
 .container {
-  max-width: 1300px;
+  max-width: 100vw;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -220,6 +220,10 @@ ul a:hover {
 }
 .filter-btn:hover {
   cursor: pointer;
+  background: #6759ff;
+  color: #ffffff;
+}
+.filter-btn.active {
   background: #6759ff;
   color: #ffffff;
 }
