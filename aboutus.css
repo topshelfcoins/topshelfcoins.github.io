@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-height: 100dvh;
 }
 .about {
   width: 100%;
@@ -18,7 +19,7 @@ body {
 }
 .about img {
   height: auto;
-  width: 420px;
+  width: 25vw;
 }
 .about-text {
   width: 550px;

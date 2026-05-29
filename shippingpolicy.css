@@ -9,10 +9,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-height: 100dvh;
 }
 .shipping-policy {
   width: 100%;
   padding: 78px 0px;
+  flex: 1;
   
 }
 .shipping-policy img {
