@@ -86,7 +86,7 @@ item[i].style.display="none";
 
     <div class="products">
       <script>
-        fetch("products.json")
+        fetch('products.json?cb=' + Date.now())
         .then(res => res.json())
         .then(products => {
           const container = document.getElementsByClassName("products")[0];
