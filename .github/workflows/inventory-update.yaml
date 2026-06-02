@@ -1,0 +1,41 @@
+name: Generate JSON every 2 hours
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run JSON generator
+        env:
+          EBAY_API_KEY: ${{ secrets.EBAY_API_KEY }}
+          EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          RUNAME: ${{ secrets.RUNAME }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+          EBAY_SCOPE: ${{ secrets.EBAY_SCOPE }}
+        run: python inventory_database.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "topshelfcoins"
+          git config user.email "humbervalleyaccount@hotmail.com"
+          git add products.json
+          git commit -m "Auto-update JSON" || echo "No changes"
+          git push
