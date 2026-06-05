@@ -2,7 +2,7 @@ name: Generate JSON every 2 hours
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "15 */2 * * *"
   workflow_dispatch:
 
 jobs:
