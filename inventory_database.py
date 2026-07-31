@@ -189,7 +189,7 @@ def get_tags(title: str, category: str):
                 tags += " 25c"
             if i == 6:
                 tags += " 50c"
-            if i == 7:
+            if i == 7 and denoms[8] not in category.lower():
                 tags += " $1"
             if i == 8:
                 tags += " $2"
