@@ -174,27 +174,27 @@ def get_tags(title: str, category: str):
         tags += " ungraded"
 
     # Denominations
-    denoms = ["1 cent", "5 cent", "10 cent", "20 cent", "25 cent", "50 cent", "$1", "$2", "10 dollar"]
+    denoms = ["Large Cents", "Small Cents", "Five Cents", "Ten Cents", "Twenty Cents", "Twenty-Five Cents", "Fifty Cents", "One Dollar", "Two Dollars", "Commemorative"]
     for i in range(0, 9):
-        if denoms[i] in title.lower():
-            if i == 0:
+        if denoms[i] in category.lower():
+            if i == 0 or i == 1:
                 tags += " 1c"
-            if i == 1:
+            if i == 2 and denoms[5] not in category.lower():
                 tags += " 5c"
-            if i == 2:
-                tags += " 10c"
             if i == 3:
-                tags += " 20c"
+                tags += " 10c"
             if i == 4:
-                tags += " 25c"
+                tags+= " 20c"
             if i == 5:
-                tags += " 50c"
+                tags += " 25c"
             if i == 6:
-                tags += " $1"
+                tags += " 50c"
             if i == 7:
-                tags += " $2"
+                tags += " $1"
             if i == 8:
-                tags += " $10"
+                tags += " $2"
+            if i == 9:
+                tags += " commem"
 
     return tags
 
