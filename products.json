@@ -145,7 +145,7 @@
     },
     {
         "name": "2024 Canada Polar Bear $2 Toonie - NGC SP69 - First Releases/First Year of Issue",
-        "tags": "all product ebay canadian graded ngc $1 $2",
+        "tags": "all product ebay canadian graded ngc $2",
         "desc": "eBay - Canadian Coins - Graded - NGC",
         "photo": "https://i.ebayimg.com/00/s/ODg0WDY0OA==/z/FdUAAeSw5slpk6wc/$_1.JPG?set_id=8800005007",
         "price": "C $129.00",
@@ -449,7 +449,7 @@
     },
     {
         "name": "2022 $2 DOLLAR BLACK RING MS66 NGC Canada - Great Condition",
-        "tags": "all product ebay canadian graded ngc $1 $2",
+        "tags": "all product ebay canadian graded ngc $2",
         "desc": "eBay - Canadian Coins - Graded - NGC",
         "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMDk1/z/uIgAAeSwlexoMO-7/$_1.JPG?set_id=8800005007",
         "price": "C $99.00",
@@ -505,7 +505,7 @@
     },
     {
         "name": "2022 $2 BLACK RING MS67 NGC CANADA - GREAT CONDITION",
-        "tags": "all product ebay canadian graded ngc $1 $2",
+        "tags": "all product ebay canadian graded ngc $2",
         "desc": "eBay - Canadian Coins - Graded - NGC",
         "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMTAy/z/U~IAAeSwLe1oMi9z/$_1.JPG?set_id=8800005007",
         "price": "C $299.00",
@@ -545,10 +545,50 @@
     },
     {
         "name": "2022 $2 DOLLAR BLACK RING MS65 PCGS - Great Condition",
-        "tags": "all product ebay canadian graded pcgs $1 $2",
+        "tags": "all product ebay canadian graded pcgs $2",
         "desc": "eBay - Canadian Coins - Graded - PCGS",
         "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/C0UAAeSwQ7dqaO4w/$_1.JPG?set_id=8800005007",
         "price": "C $99.00",
         "link": "https://www.ebay.ca/itm/2022-2-DOLLAR-BLACK-RING-MS65-PCGS-Great-Condition-/298540026549"
+    },
+    {
+        "name": "1965 Canada 25 Cent - PCGS PL67CAM Graded - ONLY 1 GRADED HIGHER",
+        "tags": "all product ebay canadian graded pcgs 25c",
+        "desc": "eBay - Canadian Coins - Graded - PCGS",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/a6AAAeSwhINqbR4B/$_1.JPG?set_id=8800005007",
+        "price": "C $149.00",
+        "link": "https://www.ebay.ca/itm/1965-Canada-25-Cent-PCGS-PL67CAM-Graded-ONLY-1-GRADED-HIGHER-/298548884557"
+    },
+    {
+        "name": "1963 Canada 25 Cents - NGC PL66 ULTRA CAMEO Graded - Only 6 Graded Higher",
+        "tags": "all product ebay canadian graded ngc 25c",
+        "desc": "eBay - Canadian Coins - Graded - NGC",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~3kAAeSwFdNqbR9~/$_1.JPG?set_id=8800005007",
+        "price": "C $149.00",
+        "link": "https://www.ebay.ca/itm/1963-Canada-25-Cents-NGC-PL66-ULTRA-CAMEO-Graded-Only-6-Graded-Higher-/298548905301"
+    },
+    {
+        "name": "1959 Camada 25 Cent - NGC PL66 Graded - ONLY 1 GRADED HIGHER - NICE TONING",
+        "tags": "all product ebay canadian graded ngc 25c",
+        "desc": "eBay - Canadian Coins - Graded - NGC",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kvMAAeSwmkxqbSFn/$_1.JPG?set_id=8800005007",
+        "price": "C $119.00",
+        "link": "https://www.ebay.ca/itm/1959-Camada-25-Cent-NGC-PL66-Graded-ONLY-1-GRADED-HIGHER-NICE-TONING-/298548920038"
+    },
+    {
+        "name": "1962 Canada 25 Cents - NGC PL67 Graded - **TOP POP COIN**",
+        "tags": "all product ebay canadian graded ngc 25c",
+        "desc": "eBay - Canadian Coins - Graded - NGC",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/nOAAAeSwmkxqbSKY/$_1.JPG?set_id=8800005007",
+        "price": "C $149.00",
+        "link": "https://www.ebay.ca/itm/1962-Canada-25-Cents-NGC-PL67-Graded-TOP-POP-COIN--/298548935887"
+    },
+    {
+        "name": "1963 Canada 25 Cents - PCGS PL67CAM Graded - **TOP POP COIN**",
+        "tags": "all product ebay canadian graded pcgs 25c",
+        "desc": "eBay - Canadian Coins - Graded - PCGS",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QkkAAeSwsIxqbSQx/$_1.JPG?set_id=8800005007",
+        "price": "C $149.00",
+        "link": "https://www.ebay.ca/itm/1963-Canada-25-Cents-PCGS-PL67CAM-Graded-TOP-POP-COIN--/298548941075"
     }
 ]
