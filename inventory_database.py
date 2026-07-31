@@ -174,7 +174,7 @@ def get_tags(title: str, category: str):
         tags += " ungraded"
 
     # Denominations
-    denoms = ["Large Cents", "Small Cents", "Five Cents", "Ten Cents", "Twenty Cents", "Twenty-Five Cents", "Fifty Cents", "One Dollar", "Two Dollars", "Commemorative"]
+    denoms = ["large cents", "small cents", "five cents", "ten cents", "twenty cents", "twenty-five cents", "fifty cents", "dollars", "two dollars", "commemorative"]
     for i in range(0, 9):
         if denoms[i] in category.lower():
             if i == 0 or i == 1:
