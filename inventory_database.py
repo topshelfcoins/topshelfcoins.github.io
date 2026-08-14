@@ -145,7 +145,7 @@ def get_desc(tags: str):
     if "canadian" in tags:
         desc += " - Canadian Coins"
     else:
-        desc += " - American Coins"
+        desc += " - International Coins"
     if "ungraded" in tags:
         desc += " - Ungraded"
     else:
