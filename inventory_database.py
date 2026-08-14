@@ -160,7 +160,7 @@ def get_tags(title: str, category: str):
     if "canada" in category.lower():
         tags += " canadian"
     else:
-        tags += " american"
+        tags += " international"
     # Grading companies
     if "ngc" in title.lower():
         tags += " graded ngc"
