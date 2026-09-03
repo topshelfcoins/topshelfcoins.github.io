@@ -1,29 +1,5 @@
 [
     {
-        "name": "2015 Canada $1 Dollar - NGC MS68 Graded - 1st Releases - Only 1 Graded Higher",
-        "tags": "all product ebay canadian graded ngc $1",
-        "desc": "eBay - Canadian Coins - Graded - NGC",
-        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NRcAAeSwzM5qcLeM/$_1.JPG?set_id=8800005007",
-        "price": "C $199.00",
-        "link": "https://www.ebay.ca/itm/2015-Canada-1-Dollar-NGC-MS68-Graded-1st-Releases-Only-1-Graded-Higher-/298556282898"
-    },
-    {
-        "name": "1899 Canada 20 Cents Newfoundland - ICCS VF20 Graded - Nice Toning - Large 9s",
-        "tags": "all product ebay canadian graded iccs 20c",
-        "desc": "eBay - Canadian Coins - Graded - ICCS",
-        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mSAAAeSwRT1qcLlB/$_1.JPG?set_id=8800005007",
-        "price": "C $179.00",
-        "link": "https://www.ebay.ca/itm/1899-Canada-20-Cents-Newfoundland-ICCS-VF20-Graded-Nice-Toning-Large-9s-/298556307515"
-    },
-    {
-        "name": "1888 Canada 10 Cents Newfoundland - ICCS EF45 Graded - Only 30K Minted -...",
-        "tags": "all product ebay canadian graded iccs 10c",
-        "desc": "eBay - Canadian Coins - Graded - ICCS",
-        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yvcAAeSwzY5qcLqA/$_1.JPG?set_id=8800005007",
-        "price": "C $1799.00",
-        "link": "https://www.ebay.ca/itm/1888-Canada-10-Cents-Newfoundland-ICCS-EF45-Graded-Only-30K-Minted--/298556312100"
-    },
-    {
         "name": "1876H Canada NFLD 10 Cents - PCGS AU DETAILS - **LOW MINTAGE** - NICE TONING",
         "tags": "all product ebay canadian graded pcgs 10c",
         "desc": "eBay - Canadian Coins - Graded - PCGS",
@@ -110,14 +86,6 @@
         "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9XUAAeSweUpp-uQN/$_1.JPG?set_id=8800005007",
         "price": "C $179.00",
         "link": "https://www.ebay.ca/itm/1900-Canada-10-Cent-AU50-Details-ICG-Graded-Silver-Coin--/298293704640"
-    },
-    {
-        "name": "1912 Canada Newfoundland 10 Cents - VF30 Details - ICG Graded - **Silver Coin**",
-        "tags": "all product ebay canadian graded icg",
-        "desc": "eBay - Canadian Coins - Graded - ICG",
-        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/u5cAAeSwrIhp-ubv/$_1.JPG?set_id=8800005007",
-        "price": "C $49.00",
-        "link": "https://www.ebay.ca/itm/1912-Canada-Newfoundland-10-Cents-VF30-Details-ICG-Graded-Silver-Coin--/298293711727"
     },
     {
         "name": "1969 Canada 10 Cent - PL67CAM - PCGS Graded - Stunning Cameo Coin - Small Date",
@@ -734,5 +702,29 @@
         "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XJUAAeSwmaVqbT6f/$_1.JPG?set_id=8800005007",
         "price": "C $129.00",
         "link": "https://www.ebay.ca/itm/1965-Canada-25-Cent-PCGS-PL67-Graded-/298549166422"
+    },
+    {
+        "name": "2015 Canada $1 Dollar - NGC MS68 Graded - 1st Releases - Only 1 Graded Higher",
+        "tags": "all product ebay canadian graded ngc $1",
+        "desc": "eBay - Canadian Coins - Graded - NGC",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/NRcAAeSwzM5qcLeM/$_1.JPG?set_id=8800005007",
+        "price": "C $199.00",
+        "link": "https://www.ebay.ca/itm/2015-Canada-1-Dollar-NGC-MS68-Graded-1st-Releases-Only-1-Graded-Higher-/298556282898"
+    },
+    {
+        "name": "1899 Canada 20 Cents Newfoundland - ICCS VF20 Graded - Nice Toning - Large 9s",
+        "tags": "all product ebay canadian graded iccs 20c",
+        "desc": "eBay - Canadian Coins - Graded - ICCS",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mSAAAeSwRT1qcLlB/$_1.JPG?set_id=8800005007",
+        "price": "C $179.00",
+        "link": "https://www.ebay.ca/itm/1899-Canada-20-Cents-Newfoundland-ICCS-VF20-Graded-Nice-Toning-Large-9s-/298556307515"
+    },
+    {
+        "name": "1888 Canada 10 Cents Newfoundland - ICCS EF45 Graded - Only 30K Minted -...",
+        "tags": "all product ebay canadian graded iccs 10c",
+        "desc": "eBay - Canadian Coins - Graded - ICCS",
+        "photo": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yvcAAeSwzY5qcLqA/$_1.JPG?set_id=8800005007",
+        "price": "C $1799.00",
+        "link": "https://www.ebay.ca/itm/1888-Canada-10-Cents-Newfoundland-ICCS-EF45-Graded-Only-30K-Minted--/298556312100"
     }
 ]
